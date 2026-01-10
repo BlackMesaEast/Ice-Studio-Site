@@ -18,7 +18,7 @@ export default function page() {
           <h1 className="font-extrabold text-4xl">ZOMBIE PLEAGUE</h1>
         </div>
         <div>
-          <h1>Spillet er mega awesome</h1>
+          <h1>Spillet er mega ikke awesome</h1>
         </div>
       </div>
     </div>
