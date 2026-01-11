@@ -1,4 +1,4 @@
-import React from "react";
+import GameButton from "../components/GameButton";
 
 export default function TopDownShooter() {
   return (
@@ -18,11 +18,11 @@ export default function TopDownShooter() {
               ZOMBIE PLEAGUE
             </h1>
           </div>
-          <div>
+          <div className="flex flex-col gap-4 items-center">
             <h1 className="text-white">Spillet er mega awesome</h1>
             <a
               href="#Game"
-              className="border rounded px-4 py-2 bg-green-500 hover:bg-green-700 text-white inline-block text-center"
+              className="rounded px-4 py-2 bg-white text-black inline-block text-center font-extrabold hover:bg-gray-200"
             >
               Spil Her
             </a>
@@ -31,12 +31,7 @@ export default function TopDownShooter() {
         <section id="Game">
           <div className="flex justify-center bg-zinc-900" role="application">
             <div className="bg-white rounded-lg my-8 w-full bg-zinc-800 max-w-5xl p-4">
-              <iframe
-                src="/TopDownShooterWebGL/index.html"
-                className="w-full h-[675px] rounded-lg"
-                title="Zombie Plague WebGL"
-                allowFullScreen
-              ></iframe>
+              <GameButton />
             </div>
           </div>
         </section>
