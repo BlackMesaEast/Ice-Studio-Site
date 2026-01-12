@@ -19,15 +19,20 @@ function NavButton({
 
 export default function NavBar() {
   return (
-    <div className="flex h-15" role="navigation">
-      <NavButton href="/">
-        <img src="/IceStudioLogo.svg" alt="The Logo" className="h-8 w-auto" />
-        <span className="text-[#00436e]">Ice Studio</span>
-      </NavButton>
-      <NavButton href="/TopDownShooter">TopDownShooter</NavButton>
-      <NavButton href="/">test2</NavButton>
-      <NavButton href="/">test3</NavButton>
-      <NavButton href="/">test4</NavButton>
+    <div className="w-full flex justify-center" role="navigation">
+      <div className="max-w-[1300px] w-full flex h-15">
+        <NavButton href="/">
+          <img
+            src="/IceStudioLogo.svg"
+            alt="The Logo"
+            className="h-10 w-auto"
+          />
+        </NavButton>
+        <NavButton href="/TopDownShooter">TopDownShooter</NavButton>
+        <NavButton href="/">test2</NavButton>
+        <NavButton href="/">test3</NavButton>
+        <NavButton href="/">test4</NavButton>
+      </div>
     </div>
   );
 }
