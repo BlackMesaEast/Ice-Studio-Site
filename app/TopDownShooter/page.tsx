@@ -5,6 +5,13 @@ export default function TopDownShooter() {
     <div className="w-full flex justify-center">
       <div className="max-w-[1300] w-full">
         <div role="main">
+          <section id="Game">
+            <div className="flex justify-center bg-zinc-900" role="application">
+              <div className="bg-white rounded-lg my-8 w-full bg-zinc-800 max-w-5xl p-4">
+                <GameButton />
+              </div>
+            </div>
+          </section>
           <div className="flex justify-center">
             <img
               src="/topdownshooter.png"

@@ -22,3 +22,15 @@ export default function GameButton() {
     </div>
   );
 }
+<section id="Game">
+  <div className="flex justify-center bg-zinc-900" role="application">
+    <div className="bg-white rounded-lg my-8 w-full bg-zinc-800 max-w-5xl p-4">
+      <iframe
+        src="/TopDownShooterWebGL/index.html"
+        className="w-full h-[675px] rounded-lg"
+        title="Zombie Plague WebGL"
+        allowFullScreen
+      ></iframe>
+    </div>
+  </div>
+</section>;
