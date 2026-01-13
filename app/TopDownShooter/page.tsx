@@ -6,20 +6,25 @@ export default function TopDownShooter() {
       <div className="max-w-[1300] w-full">
         <div role="main">
           <section id="Game">
-            <div className="flex justify-center bg-zinc-900" role="application">
-              <div className="bg-white rounded-lg my-8 w-full bg-zinc-800 max-w-5xl p-4">
+            <div
+              className="relative flex justify-center bg-zinc-900"
+              role="application"
+            >
+              <img
+                src="/topdownshooter.png"
+                role="img"
+                alt=""
+                className="absolute inset-0 w-full h-full object-cover opacity-40 rounded-lg"
+                style={{ zIndex: 0 }}
+              />
+              <div
+                className="relative bg-white rounded-lg my-8 w-full bg-zinc-800 max-w-5xl p-4"
+                style={{ zIndex: 1 }}
+              >
                 <GameButton />
               </div>
             </div>
           </section>
-          <div className="flex justify-center">
-            <img
-              src="/topdownshooter.png"
-              role="img"
-              alt=""
-              className="h-auto w-full"
-            />
-          </div>
           <div className="h-100 flex justify-evenly items-center bg-[#43450c]">
             <div className="">
               <h1 className="font-extrabold text-4xl text-white">
