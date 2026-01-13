@@ -1,21 +1,20 @@
 import GameButton from "../components/GameButton";
+import Image from "next/image";
 
 export default function TopDownShooter() {
   return (
     <div className="w-full flex justify-center">
-      <div className="max-w-[1300] w-full">
+      <div className="max-w-[1300px] w-full">
         <div role="main">
-          <section id="Game">
-            <div
-              className="relative flex justify-center bg-zinc-900"
-              role="application"
-            >
-              <img
+          <section id="Game" aria-label="Game area">
+            <div className="relative flex justify-center bg-zinc-900">
+              <Image
                 src="/topdownshooter.png"
-                role="img"
                 alt=""
+                fill
                 className="absolute inset-0 w-full h-full object-cover opacity-40 rounded-lg"
                 style={{ zIndex: 0 }}
+                priority
               />
               <div
                 className="relative bg-white rounded-lg my-8 w-full bg-zinc-800 max-w-5xl p-4"
