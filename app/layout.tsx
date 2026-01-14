@@ -21,6 +21,10 @@ export const metadata: Metadata = {
       "/favicon.ico",
       "/IceStudioLogo.svg",
     ],
+  metadataBase: new URL('https://icestudio.dk'),
+  alternates: {
+    canonical: './',
+  },
 };
 
 export default function RootLayout({
