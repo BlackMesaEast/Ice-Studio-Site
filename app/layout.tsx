@@ -17,9 +17,10 @@ export const metadata: Metadata = {
   title: "Ice Studio",
   description:
     "Ice Studio er et dansk game-studio der udvikler computerspil, spilmekanikker, 3D-verdener og interaktive systemer – fra idé til færdigt spil.",
-  icons: {
-    icon: "/IceStudioLogo.svg",
-  },
+  icons: [
+      "/favicon.ico",
+      "/IceStudioLogo.svg",
+    ],
 };
 
 export default function RootLayout({
