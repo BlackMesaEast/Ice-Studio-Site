@@ -12,7 +12,7 @@ export default function TopDownShooter() {
                 src="/topdownshooter.png"
                 alt=""
                 fill
-                className="absolute inset-0 w-full h-full object-cover opacity-40 rounded-lg"
+                className="absolute inset-0 w-full h-full object-cover opacity-40"
                 style={{ zIndex: 0 }}
                 priority
               />
@@ -24,7 +24,7 @@ export default function TopDownShooter() {
               </div>
             </div>
           </section>
-          <div className="h-100 flex justify-evenly items-center bg-[#43450c]">
+          <div className="h-100 flex justify-evenly items-center bg-[#292a15]">
             <div className="">
               <h1 className="font-extrabold text-4xl text-white">
                 ZOMBIE PLEAGUE

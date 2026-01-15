@@ -28,8 +28,8 @@ export default function NavBar() {
             className="h-10 w-auto"
           />
         </NavButton>
-        <NavButton href="/TopDownShooter">TopDownShooter</NavButton>
-        <NavButton href="/">test2</NavButton>
+        <NavButton href="/Silent-Citadel">Silent Citadel</NavButton>
+        <NavButton href="/Zombie-Pleague">Zombie Pleague</NavButton>
         <NavButton href="/">test3</NavButton>
         <NavButton href="/">test4</NavButton>
       </div>
