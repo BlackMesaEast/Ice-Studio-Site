@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/Zombie-Pleague`,
+      url: `${baseUrl}/Zombie-Plague`,
       lastModified: new Date(),
       priority: 0.8,
     },

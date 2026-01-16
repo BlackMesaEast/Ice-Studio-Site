@@ -29,7 +29,7 @@ export default function NavBar() {
           />
         </NavButton>
         <NavButton href="/Silent-Citadel">Silent Citadel</NavButton>
-        <NavButton href="/Zombie-Pleague">Zombie Pleague</NavButton>
+        <NavButton href="/Zombie-Plague">Zombie Plague</NavButton>
         <NavButton href="/">test3</NavButton>
         <NavButton href="/">test4</NavButton>
       </div>

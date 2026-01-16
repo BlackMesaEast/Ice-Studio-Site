@@ -27,7 +27,7 @@ export default function TopDownShooter() {
           <div className="h-100 flex justify-evenly items-center bg-[#292a15]">
             <div className="">
               <h1 className="font-extrabold text-4xl text-white">
-                ZOMBIE PLEAGUE
+                ZOMBIE PLAGUE
               </h1>
             </div>
             <div className="flex w-1/2 flex-col gap-4 items-center">
