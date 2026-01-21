@@ -17,13 +17,10 @@ export const metadata: Metadata = {
   title: "Ice Studio",
   description:
     "Ice Studio er et dansk game-studio der udvikler computerspil, spilmekanikker, 3D-verdener og interaktive systemer – fra idé til færdigt spil.",
-  icons: [
-      "/favicon.ico",
-      "/IceStudioLogo.svg",
-    ],
-  metadataBase: new URL('https://icestudio.dk'),
+  icons: ["/favicon.ico"],
+  metadataBase: new URL("https://icestudio.dk"),
   alternates: {
-    canonical: './',
+    canonical: "./",
   },
 };
 

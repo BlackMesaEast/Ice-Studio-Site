@@ -1,7 +1,7 @@
 import GameButton from "../components/GameButton";
 import Image from "next/image";
 
-export default function TopDownShooter() {
+export default function Zombie_Pleague() {
   return (
     <div className="w-full flex justify-center">
       <div className="max-w-[1300px] w-full">
@@ -27,7 +27,7 @@ export default function TopDownShooter() {
           <div className="h-100 flex justify-evenly items-center bg-[#292a15]">
             <div className="">
               <h1 className="font-extrabold text-4xl text-white">
-                ZOMBIE PLAGUE
+                ZOMBIE PLEAGUE
               </h1>
             </div>
             <div className="flex w-1/2 flex-col gap-4 items-center">

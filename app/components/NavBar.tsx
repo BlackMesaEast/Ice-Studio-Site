@@ -10,7 +10,7 @@ function NavButton({
   return (
     <Link
       href={href}
-      className="flex flex-col items-center justify-center font-extrabold text-xl font-sans overflow-hidden text-ellipsis whitespace-nowrap text-[#4b423c] hover:bg-[#ff862c] hover:text-white transition ease-in-out px-8 py-4"
+      className="flex flex-col items-center justify-center font-extrabold text-xl font-sans overflow-hidden text-ellipsis whitespace-nowrap text-[#4b423c] hover:bg-blue-800 hover:text-white transition ease-in-out px-8 py-4"
     >
       {children}
     </Link>
