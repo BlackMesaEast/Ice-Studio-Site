@@ -15,7 +15,7 @@ export default function GameButton() {
     <div className="flex justify-center items-center h-[675px]">
       <button
         onClick={() => setShowIframe(true)}
-        className="bg-white rounded p-2 hover:bg-gray-200 text-xl font-bold"
+        className="bg-white rounded p-2 hover:bg-gray-200 text-xl font-bold border-4 border-blue-200"
       >
         Start Game
       </button>

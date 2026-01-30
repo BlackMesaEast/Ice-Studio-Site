@@ -7,35 +7,26 @@ export default function Zombie_Pleague() {
       <div className="max-w-[1300px] w-full">
         <div role="main">
           <section id="Game" aria-label="Game area">
-            <div className="relative flex justify-center bg-zinc-900">
-              <Image
-                src="/topdownshooter.png"
-                alt=""
-                fill
-                className="absolute inset-0 w-full h-full object-cover opacity-40"
-                style={{ zIndex: 0 }}
-                priority
-              />
+            <div className="relative flex justify-center">
               <div
-                className="relative bg-white rounded-lg my-8 w-full bg-zinc-800 max-w-5xl p-4"
+                className="relative bg-white rounded-lg my-8 w-full border-4 border-blue-200 bg-white/90 shadow-2xl m-4 max-w-5xl p-4"
                 style={{ zIndex: 1 }}
               >
                 <GameButton />
               </div>
             </div>
           </section>
-          <div className="h-100 flex justify-evenly items-center bg-[#292a15]">
+          <div className="h-100 flex justify-evenly items-center border-t-2">
             <div className="">
-              <h1 className="font-extrabold text-4xl text-white">
+              <h1 className="font-extrabold text-4xl text-black">
                 ZOMBIE PLEAGUE
               </h1>
             </div>
             <div className="flex w-1/2 flex-col gap-4 items-center">
-              <h1 className="text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                velit nam rerum aut nemo quod, aliquid, nostrum provident
-                ratione aliquam laudantium et! Assumenda obcaecati nostrum
-                explicabo quod culpa nobis libero!
+              <h1 className="text-black">
+                Enter a thrilling action game where zombies have taken over.
+                Embark on dangerous missions to fight back and wipe out the
+                undead threat!
               </h1>
               <a
                 href="#Game"
